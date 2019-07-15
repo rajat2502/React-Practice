@@ -56,3 +56,14 @@ ReactDOM.render(<Toggle />, document.getElementById('app'));
 
 // Note: this.setState Automatically Calls render
 // Any time that you call this.setState(), this.setState() AUTOMATICALLY calls .render() as soon as the state has changed.
+// Think of this.setState() as actually being two things: this.setState(), immediately followed by .render()
+
+
+// we can also use fucntions in setState
+// handleClick() {
+//   this.setState(prevState => {
+//       return {
+//           count
+//       }
+//   })
+}
